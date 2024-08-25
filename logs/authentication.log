@@ -1,0 +1,52 @@
+2024-08-22T07:24:26.459+09:00  INFO 13288 --- [restartedMain] c.m.a.AuthencationServerApplication      : The following 1 profile is active: "dev"
+2024-08-22T07:24:28.073+09:00  INFO 13288 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-08-22T07:24:28.229+09:00  INFO 13288 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 141 ms. Found 1 JPA repository interfaces.
+2024-08-22T07:24:28.597+09:00  INFO 13288 --- [restartedMain] o.s.cloud.context.scope.GenericScope     : BeanFactory id=54f6ca16-ceab-37bb-bda3-3d05005bac93
+2024-08-22T07:24:29.427+09:00  INFO 13288 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8900 (http)
+2024-08-22T07:24:29.451+09:00  INFO 13288 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-08-22T07:24:29.453+09:00  INFO 13288 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.5]
+2024-08-22T07:24:29.583+09:00  INFO 13288 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-08-22T07:24:29.586+09:00  INFO 13288 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3087 ms
+2024-08-22T07:24:30.650+09:00  INFO 13288 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-08-22T07:24:30.821+09:00  INFO 13288 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.1.7.Final
+2024-08-22T07:24:31.334+09:00  INFO 13288 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-08-22T07:24:31.686+09:00  INFO 13288 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@6d2dc721
+2024-08-22T07:24:31.691+09:00  INFO 13288 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-08-22T07:24:31.741+09:00  INFO 13288 --- [restartedMain] SQL dialect                              : HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2024-08-22T07:24:32.803+09:00  INFO 13288 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-08-22T07:24:32.816+09:00  INFO 13288 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-08-22T07:24:33.337+09:00  WARN 13288 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-08-22T07:24:35.035+09:00  INFO 13288 --- [restartedMain] o.s.cloud.commons.util.InetUtils         : Cannot determine local hostname
+2024-08-22T07:24:35.736+09:00  WARN 13288 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2024-08-22T07:24:36.043+09:00  INFO 13288 --- [RMI TCP Connection(2)-127.0.0.1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-08-22T07:24:36.044+09:00  INFO 13288 --- [RMI TCP Connection(2)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-08-22T07:24:37.149+09:00  INFO 13288 --- [restartedMain] o.s.cloud.commons.util.InetUtils         : Cannot determine local hostname
+2024-08-22T07:24:37.161+09:00  INFO 13288 --- [RMI TCP Connection(2)-127.0.0.1] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint(s) beneath base path '/actuator'
+2024-08-22T07:24:37.183+09:00  INFO 13288 --- [RMI TCP Connection(2)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1138 ms
+2024-08-22T07:24:37.198+09:00  INFO 13288 --- [restartedMain] DiscoveryClientOptionalArgsConfiguration : Eureka HTTP Client uses RestTemplate.
+2024-08-22T07:24:37.623+09:00  WARN 13288 --- [restartedMain] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2024-08-22T07:24:37.924+09:00  INFO 13288 --- [restartedMain] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2024-08-22T07:24:38.195+09:00  INFO 13288 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2024-08-22T07:24:38.217+09:00  INFO 13288 --- [restartedMain] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2024-08-22T07:24:38.316+09:00  INFO 13288 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2024-08-22T07:24:38.336+09:00  INFO 13288 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2024-08-22T07:24:38.393+09:00  INFO 13288 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2024-08-22T07:24:38.447+09:00  INFO 13288 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2024-08-22T07:24:38.457+09:00  INFO 13288 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2024-08-22T07:24:38.460+09:00  INFO 13288 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2024-08-22T07:24:38.464+09:00  INFO 13288 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2024-08-22T07:24:38.928+09:00  INFO 13288 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2024-08-22T07:24:38.937+09:00  INFO 13288 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2024-08-22T07:24:38.946+09:00  INFO 13288 --- [restartedMain] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2024-08-22T07:24:38.962+09:00  INFO 13288 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1724279078961 with initial instances count: 3
+2024-08-22T07:24:38.966+09:00  INFO 13288 --- [restartedMain] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application AUTHENTICATION-SERVER with eureka with status UP
+2024-08-22T07:24:38.979+09:00  INFO 13288 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1724279078979, current=UP, previous=STARTING]
+2024-08-22T07:24:39.041+09:00  INFO 13288 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_AUTHENTICATION-SERVER/localhost:authentication-server:8900: registering service...
+2024-08-22T07:24:39.044+09:00  INFO 13288 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8900 (http) with context path ''
+2024-08-22T07:24:39.046+09:00  INFO 13288 --- [restartedMain] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 8900
+2024-08-22T07:24:39.094+09:00  INFO 13288 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_AUTHENTICATION-SERVER/localhost:authentication-server:8900 - registration status: 204
+2024-08-22T07:24:40.303+09:00  INFO 13288 --- [restartedMain] o.s.cloud.commons.util.InetUtils         : Cannot determine local hostname
+2024-08-22T07:24:40.328+09:00  INFO 13288 --- [restartedMain] c.m.a.AuthencationServerApplication      : Started AuthencationServerApplication in 19.404 seconds (process running for 20.093)
+2024-08-22T07:29:38.481+09:00  INFO 13288 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2024-08-22T07:34:38.484+09:00  INFO 13288 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2024-08-22T07:39:38.490+09:00  INFO 13288 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
